@@ -64,12 +64,13 @@ function generarFactura(){
 
     const fecha= respuestas.fecha || new Date().toLocaleDateString();
 
-    doc.text(`cliente:${respuestas.cliente}`);
-    doc.text(`producto:${respuestas.producto}`);
-    doc.text(`precio:${respuestas.precio}`);
-    doc.text(`fecha:${fecha}`);
-    doc.end();
+    documento.text(`cliente:${respuestas.cliente}`);
+    documento.text(`producto:${respuestas.producto}`);
+    documento.text(`precio:${respuestas.precio}`);
+    documento.text(`fecha:${fecha}`);
+    documento.end();
     console.log(`Factura generada exitosamente:${fileName}`);
+    menu();
 });
 }
 
@@ -82,6 +83,7 @@ function generarReporte(){
     doc.list(['laptop','mouse','teclado']);
     doc.end();
     console.log(`Reporte generado exitosamente:${fileName}`);
+    menu();
 }
 
 function generarpdf(){
@@ -103,5 +105,7 @@ function generarpdf(){
     doc.pipe(fs.createWriteStream(fileName));
     doc.end();
     console.log(`Nota generada exitosamente${fileName}`);
+    menu();
 });
 }
+menu();
