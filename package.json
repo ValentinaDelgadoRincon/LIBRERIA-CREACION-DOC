@@ -1,0 +1,26 @@
+{
+  "name": "libreria-creacion-doc",
+  "version": "1.0.0",
+  "description": "Crear facturas, reportes o documentos PDF",
+  "keywords": [
+    "Factura",
+    "reportes",
+    "documentos",
+    "creación"
+  ],
+  "homepage": "https://github.com/ValentinaDelgadoRincon/LIBRERIA-CREACION-DOC#readme",
+  "bugs": {
+    "url": "https://github.com/ValentinaDelgadoRincon/LIBRERIA-CREACION-DOC/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinaDelgadoRincon/LIBRERIA-CREACION-DOC.git"
+  },
+  "license": "ISC",
+  "author": "Valentina y Camila",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
