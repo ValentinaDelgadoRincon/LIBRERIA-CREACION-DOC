@@ -78,7 +78,7 @@ Elegímos **PDFKit** debido a su capacidad para crear documentos PDF de manera f
 
 ## 🎥 Video de Presentación
 
-Puedes ver el video de presentación de la aplicación [aquí](https://enlace-al-video).
+Puedes ver el video de presentación de la aplicación [aquí](https://drive.google.com/file/d/1Oyfm2_x1i5ojV6dsNFzd1a8neQaSWSO8/view?usp=drivesdk).
 
 
 ---
